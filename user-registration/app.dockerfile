@@ -4,9 +4,6 @@ FROM node:20.3.0-alpine3.18
 # Set the working directory
 WORKDIR /app
 
-# Set environment variable for MongoDB connection string
-ENV MONGODB=meu-mongodb
-
 # Expose the application port
 EXPOSE 3000
 
